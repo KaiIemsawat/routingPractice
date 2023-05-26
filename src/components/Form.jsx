@@ -25,6 +25,7 @@ export default function Form(props) {
                 <input
                     type="number"
                     onChange={(e) => setNumber(e.target.value)}
+                    value={number}
                 />
                 <button>submit</button>
             </form>
